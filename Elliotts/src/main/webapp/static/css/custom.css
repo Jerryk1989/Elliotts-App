@@ -1,0 +1,59 @@
+
+
+.logoImage {
+    z-index: 3;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 25%;
+    min-height: 100px;
+    min-width: 100px;
+    position: absolute;
+}
+
+.baconImage {
+    background: url(bacon2.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+    min-height: 125px;
+    max-height: 200px;
+}
+
+.centerNav {
+    text-align: center;
+    
+}
+
+.navSpacing {
+    margin-left: 20px;
+}
+
+body {
+  background-color: #0D0C0C;
+}
+
+.slideshow {
+    background-size: 100%;
+    width: 50%;
+    height: 300px;
+}
+
+.styling {
+    background: #900000;
+    width: 100%;
+    border-right: #e5b116 10px solid; 
+    border-left: #e5b116 10px solid; 
+    border-top: #e5b116 10px solid;
+}
+
+.listItems {
+    color: white;
+}
+
+.contentStyling {
+    background-color: #910000;
+    border-right: #e5b116 10px solid;
+    border-left: #e5b116 10px solid;
+    border-bottom: #e5b116 10px solid;
+}
+
