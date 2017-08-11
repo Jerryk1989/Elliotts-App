@@ -34,4 +34,9 @@ public class GenControllers {
     public String getCustomerInquiry() {
         return "customerInquiry";
     }
+
+    @RequestMapping(value= "/testProduct", method = RequestMethod.GET)
+    public String getTestingProductPage() {
+        return "testProduct";
+    }
 }

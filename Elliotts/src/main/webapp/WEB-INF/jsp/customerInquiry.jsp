@@ -13,17 +13,17 @@
             Phone: 763-493-3232
         </address>
         <br>
-       <form>
+       <form >
            <div class="form-group offset-sm-2 row">
                <label class="listItems col-form-label col-2" for="FirstName">First Name:</label>
                <div class="col-6">
-                   <input type="email" class="form-control" id="FirstName">
+                   <input type="text" class="form-control" id="FirstName">
                </div>
            </div>
            <div class="form-group offset-sm-2 row">
                <label class="listItems col-form-label col-2" for="lastName">Last Name:</label>
                <div class="col-6">
-                   <input type="email" class="form-control" id="lastName">
+                   <input type="text" class="form-control" id="lastName">
                </div>
            </div>
            <div class="form-group offset-sm-2 row">
@@ -35,25 +35,25 @@
            <div class="form-group offset-sm-2 row">
                <label class="listItems col-form-label col-2" for="phoneNumber">Phone:</label>
                <div class="col-6">
-                   <input type="email" class="form-control" id="phoneNumber">
+                   <input type="number" class="form-control" id="phoneNumber">
                </div>
            </div>
            <div class="form-group offset-sm-2 row">
                <label class="listItems col-form-label col-2" for="city">City:</label>
                <div class="col-6">
-                   <input type="email" class="form-control" id="city">
+                   <input type="text" class="form-control" id="city">
                </div>
            </div>
            <div class="form-group offset-sm-2 row">
                <label class="listItems col-form-label col-2" for="state">State:</label>
                <div class="col-6">
-                   <input type="email" class="form-control" id="state">
+                   <input type="text" class="form-control" id="state">
                </div>
            </div>
            <div class="form-group offset-sm-2 row">
                <label class="listItems col-form-label col-2" for="zipCode">Zip:</label>
                <div class="col-6">
-                   <input type="email" class="form-control" id="zipCode">
+                   <input type="number" class="form-control" id="zipCode">
                </div>
            </div>
            <div class="form-group offset-sm-2 row">
@@ -63,7 +63,7 @@
                </div>
            </div>
            <div class="form-group offset-sm-5 row">
-           <button type="submit" class="btn btn-primary">Submit</button>
+           <button type="submit" class="btn btn-primary" id="SubmitCustomerInquiry">Submit</button>
             </div>
 
        </form>
