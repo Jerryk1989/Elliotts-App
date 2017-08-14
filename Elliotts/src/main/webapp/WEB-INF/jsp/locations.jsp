@@ -1,6 +1,6 @@
 <%@ include file="includes/header.jsp"%>
 <%@ include file="includes/navbar.jsp"%>
-
+<%--This is the lcoations webpage--%>
 <div class="row contentStyling">
     <div class="col-lg-12">
         <br />
@@ -8,6 +8,8 @@
         <br />
         <div class="align-items-center" style="width: 70%; margin: 0 auto;">
             <p class="listItems">Our products are available at your local grocery store including Minnesota, North Dakota, Wisconsin, and Michigan (U.P.).</p>
+            <%--This is currently a static list of locations.--%>
+            <%--TODO setup a feature for them to edit this list.--%>
             <ul>
                 <li class="listItems">SuperOne Foods</li>
                 <li class="listItems">Jerry's Fine Foods</li>

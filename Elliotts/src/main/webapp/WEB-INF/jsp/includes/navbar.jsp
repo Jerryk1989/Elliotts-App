@@ -1,3 +1,5 @@
+<%--This is the navbar file for all the webpages except the index/home page.--%>
+<%--This page is setup for the links to hit the controllers--%>
 <div class="row">
     <div class="styling" style="width: 100%;">
         <div class="navbar navbar-toggleable-md" style="background-color: rgba(13,12,12,0.35);">

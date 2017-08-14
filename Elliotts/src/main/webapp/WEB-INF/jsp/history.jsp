@@ -1,8 +1,11 @@
 <%@ page contentType="text/html" pageEncoding="UTF-8" %>
+<%--This page isn't including the header.jsp file.  It has a custom js script.--%>
 <html>
 <head>
     <link rel="stylesheet" href="../../static/css/bootstrap.css" >
     <link rel="stylesheet" href="../../static/css/custom.css" >
+
+    <%--Very basic javascript slideshow that only shows on this page--%>
     <script>
         var imgArray = new Array(4);
 
@@ -39,6 +42,7 @@
     </script>
 
 </head>
+<%--The onload calls the above javascript that starts the slideshow--%>
 <body onload="startup()">
 <div class="container col-lg-7">
     <div class="row">

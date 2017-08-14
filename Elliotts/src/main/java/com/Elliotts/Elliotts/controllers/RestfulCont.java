@@ -13,8 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by Jerry on 8/10/2017.
  */
 
-
-
+//Rest Controller.  These methods interact with the database.
 @RestController
 public class RestfulCont {
 

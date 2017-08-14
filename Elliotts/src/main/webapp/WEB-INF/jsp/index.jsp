@@ -1,11 +1,18 @@
+<%--This is the index/home page.  It is a completely custom page that doesn't use any of the includes.--%>
+<%--This page does not follow the rest of the websites theme.  If you want to make changes to this page,--%>
+<%--you will need to edit it here.--%>
 <html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <%--This brings in the bootstrap files and the custom css file used throughout the site.  The custom css file--%>
+    <%--does have some overlapping styles that are used on this page.  It is important that the bootstrap file--%>
+    <%--comes before the custom.css file--%>
     <link rel="stylesheet" href="../../static/css/bootstrap.css" >
     <link rel="stylesheet" href="../../static/css/custom.css" >
 </head>
 <body>
+<%--This div contains the banner and logo image that are above the navbar--%>
 <div class="container col-lg-7">
     <div class="row">
         <div class="baconImage">
@@ -15,6 +22,7 @@
         </div>
     </div>
 
+    <%--This div contains the links for this page--%>
     <div class="row justify-content-center" style="background-color: #BBBBBB;">
         <div class="navbar navbar-toggleable-md navbar-light">
             <a class="navbar-brand navSpacing" style="color: white;" href="/history">History</a>
@@ -24,8 +32,7 @@
         </div>
     </div>
 
-    <!--    <hr style="background-color: white;"  />-->
-
+<%--This div contains the content (text) below the links--%>
     <div class="row" style="background-color: #3B3836;">
         <div class="col-lg-12">
             <br />

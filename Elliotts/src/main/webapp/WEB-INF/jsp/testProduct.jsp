@@ -1,6 +1,7 @@
 <%@ include file="includes/header.jsp"%>
 <%@ include file="includes/navbar.jsp"%>
 
+<%--This page is for testing purposes.--%>
 <script>
     $(document).ready(function() {
         buildTable();

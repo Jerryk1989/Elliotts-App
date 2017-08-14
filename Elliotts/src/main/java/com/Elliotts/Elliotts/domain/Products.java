@@ -5,6 +5,7 @@ import javax.persistence.*;
 /**
  * Created by Jerry on 8/10/2017.
  */
+//This is the Entity(table) used for the products webpage.
 @Entity
 public class Products {
 

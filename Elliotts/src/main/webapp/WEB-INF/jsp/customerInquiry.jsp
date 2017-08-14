@@ -1,6 +1,7 @@
 <%@ include file="includes/header.jsp"%>
 <%@ include file="includes/navbar.jsp"%>
 
+<%--Customer inquiry web page.--%>
 <div class="row contentStyling">
     <div class="col-lg-12">
         <br />
@@ -13,6 +14,9 @@
             Phone: 763-493-3232
         </address>
         <br>
+        <%--This is the form on that page that customer fill out.  This form will be sent as an email--%>
+        <%--to elliotts--%>
+        <%--TODO setup the email functionality--%>
        <form >
            <div class="form-group offset-sm-2 row">
                <label class="listItems col-form-label col-2" for="FirstName">First Name:</label>

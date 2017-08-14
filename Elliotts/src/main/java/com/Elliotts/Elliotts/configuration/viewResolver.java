@@ -21,6 +21,10 @@ public class viewResolver extends WebMvcConfigurerAdapter {
     public InternalResourceViewResolver internalResourceViewResolver() {
         InternalResourceViewResolver bean = new InternalResourceViewResolver();
         bean.setViewClass(JstlView.class);
+        //The Prefix puts /WEB-INF-/jsp/ into our urls, so we only need to give it the jsp file name.
+        //The suffix puts .jsp at the end of our urls, so we only need to give it the jsp file name.
+        //Ex. localhost:8080/home will return us the home.jsp file if it's in /WEB-INF/jsp/
+        //Furthermore, there needs to be a method in the controller that is looking for this link, or it will not work.
         bean.setPrefix("/WEB-INF/jsp/");
         bean.setSuffix(".jsp");
         return bean;

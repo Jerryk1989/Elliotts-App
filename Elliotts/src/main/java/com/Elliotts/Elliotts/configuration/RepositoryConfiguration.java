@@ -14,7 +14,9 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableAutoConfiguration
+//This is the location that our classes marked with @Entity reside.
 @EntityScan(basePackages = {"com.Elliotts.Elliotts.domain"})
+//This is the location that our repositories reside.
 @EnableJpaRepositories(basePackages = {"com.Elliotts.Elliotts.repositories"})
 @EnableTransactionManagement
 public class RepositoryConfiguration {
